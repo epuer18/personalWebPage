@@ -1,0 +1,32 @@
+/*General*/
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+   
+  }
+
+div.resume-section-content{
+    padding: 0;
+}
+
+.active {
+  color: var(--bs-navbar-active-color);
+  background-color: var(--bs-nav-tabs-link-active-bg);
+  border-color: var(--bs-nav-tabs-link-active-border-color);
+}
+
+.poster-img{
+    width: 400;
+    border: 1.5px gray;
+}
