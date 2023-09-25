@@ -5,6 +5,13 @@
     padding:0;
 }
 
+:root {
+    --bs-primary: #26599b;
+    --bs-link-color: #18379a;
+    --bs-link-hover-color: #974a2d;
+ 
+  }
+
 section.resume-section {
     display: flex;
     align-items: center;
@@ -28,5 +35,18 @@ div.resume-section-content{
 
 .poster-img{
     width: 400;
-    border: 1.5px gray;
+    border: solid 2.5px gray;
+}
+
+.logo{
+    justify-self: right;
+    justify-content: right;
+}
+
+.icon-wrapper{
+    line-height: 20px;
+}
+.icon{
+    vertical-align: middle;
+    height: 25px;
 }
