@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/door_icon.png" />
+    <link rel="icon" type="image" href="assets/img/door_icon.png" />
 
      <!-- Font Awesome icons (free version)-->
      <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -20,7 +20,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Eduardo Puerta</span>
-            <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/Puerta_small.jpg" alt="..." /></span>
+            <span class="d-none d-lg-block"><img class="img-fluid img-prof
+                ile rounded-circle mx-auto mb-2" src="assets/img/Puerta_small.jpg" alt="..." /></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -38,24 +39,26 @@
     <!-- Page Content-->
     <div class="container-fluid p-0">
         <!-- Home-->
-        <section class="resume-section jumbotron pb-3" id="home">
+        <section class="resume-section coverbgimg pb-3" id="home">
 
-            <div class="row">
-                <div class="col-5">
+            <div class="row myrow">
+                <div class="col-9">
                         <h1 class="mb-0">
-                            <span class="text-primary">Eduardo</span>
-                            <span class="text-black">Puerta</span>
+                            <div class="text-primary">Eduardo</div>
+                            <div class="text-black">Puerta</div>
                         </h1>
                     <div class="subheading">
                         He/ Him/ His
-                        <a href="mailto:puerta.e@northeastern.edu">puerta.e@northeastern.edu</a>
-                    </div>
+                        <div>
+                            <a href="mailto:puerta.e@northeastern.edu">puerta.e@northeastern.edu</a>
+                        </div>
+                        </div>
                 </div>
-               
-                <div class="logo col-7">
-                    <a href="https://vis.khoury.northeastern.edu/">
-                        <img src="assets/img/lablogo.png" alt="" width="175rem">
+                <div class="col-3 logo">
+                    <a href="https://vis.khoury.northeastern.edu/" >
+                        <img src="assets/img/lablogo.png" alt="" width="100%">
                     </a>
+                    <div></div>
                 </div>
             </div>
         </section>
@@ -65,7 +68,7 @@
             <div class="resume-section-content">
               
                 <p class="lead">
-                    Hi! My name is <strong>Eduardo Puerta</strong> and I am a computer science phd student at 
+                    Hi! My name is <strong>Eduardo Puerta</strong> and I am a computer science Ph.D. student at 
                     Northeastern's  <a href="https://vis.khoury.northeastern.edu">Data Visualization Lab</a>! in Boston, MA. 
                 </p>
                 <p class="lead mb-5">  I am interested in network visualizations, graph theory, and data literacy and accessibility.</p>
@@ -133,7 +136,7 @@
             <img src="assets/img/layered_layout.png" alt="" width="350" >
         </div>
     
-    <script src="script.js" ></script>
+    <script src="js/script.js" ></script>
      <!-- Bootstrap core JS-->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
      <!-- Core theme JS-->
