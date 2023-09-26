@@ -80,3 +80,7 @@ div.resume-section-content{
     padding-top: 3rem;
     margin-bottom:10rem;
 }
+
+.stickfig{
+    opacity : 0;
+}
