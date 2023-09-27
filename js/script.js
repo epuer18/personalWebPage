@@ -2,12 +2,9 @@ var first = true;
 
 function make_img() {
   let stickfig = document.getElementById("stickfig");
-  for (let i = 0; i < 1; i += 0.05) {
-    setTimeout(() => {
-      stickfig.style.opacity = i;
-    }, 250);
-    console.log(i);
-  }
+    
+    setInterval(() => {stickfig.style.opacity =  stickfig.style.opacity ? (parseFloat(stickfig.style.opacity) + 0.01) : 0.05} , 300);
+  
 }
 
 window.onscroll = () => {
